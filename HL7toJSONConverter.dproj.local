@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.452,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Variables.pas=D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.374,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Frm_Main.dfm=C:\Users\ben\Documents\Embarcadero\Studio\Projects\Unit10.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.374,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Frm_Main.pas=C:\Users\ben\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.997,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Variables.pas=D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\HL7Variables.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.522,=C:\Users\ben\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.740,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\HL7toJSONConverter.dproj=C:\Users\ben\Documents\Embarcadero\Studio\Projects\Project9.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.683,D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\HL7Variables.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.329,=D:\Yazilim\Yazilim_Onur\HL7-JSON Converter\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

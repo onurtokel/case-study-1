@@ -1,0 +1,356 @@
+{ 
+   "HL7_Json":[ 
+      { 
+         "Name":"Message Header",
+         "Code":"MSH",
+         "Items":[ 
+            { 
+               "Order":1,
+               "Name":"Field Separator"
+            },
+            { 
+               "Order":2,
+               "Name":"Encoding Characters"
+            },
+            { 
+               "Order":3,
+               "Name":"Sending Application"
+            },
+            { 
+               "Order":4,
+               "Name":"Sending Facility"
+            },
+            { 
+               "Order":5,
+               "Name":"Receiving Application"
+            },
+            { 
+               "Order":6,
+               "Name":"Receiving Facility"
+            },
+            { 
+               "Order":7,
+               "Name":"Date/Time Of Message"
+            },
+            { 
+               "Order":8,
+               "Name":"Security"
+            },
+            { 
+               "Order":9,
+               "Name":"Message Type",
+               "Items":[ 
+                  { 
+                     "Order":1,
+                     "Name":"Message Code"
+                  },
+                  { 
+                     "Order":2,
+                     "Name":"Trigger Event"
+                  },
+                  { 
+                     "Order":3,
+                     "Name":"Message Structure"
+                  }
+               ]
+            },
+            { 
+               "Order":10,
+               "Name":"Message Control Id"
+            },
+            { 
+               "Order":11,
+               "Name":"Processing Id"
+            },
+            { 
+               "Order":12,
+               "Name":"VersionId"
+            },
+            { 
+               "Order":13,
+               "Name":"Sequence Number"
+            },
+            { 
+               "Order":14,
+               "Name":"Continuation Pointer"
+            },
+            { 
+               "Order":15,
+               "Name":"Accept Acknowledgment Type"
+            },
+            { 
+               "Order":16,
+               "Name":"Application Acknowledgment Type"
+            },
+            { 
+               "Order":17,
+               "Name":"Country Code"
+            },
+            { 
+               "Order":18,
+               "Name":"Character Set"
+            },
+            { 
+               "Order":19,
+               "Name":"Principal Language Of Message"
+            },
+            { 
+               "Order":20,
+               "Name":"Alternate Character Set Handling Scheme"
+            }
+         ]
+      },
+      { 
+         "Name":"Event Type",
+         "Code":"EVN",
+         "Items":[ 
+            { 
+               "Order":1,
+               "Name":"Event Type Code"
+            },
+            { 
+               "Order":2,
+               "Name":"Recorded Date/Time"
+            },
+            { 
+               "Order":3,
+               "Name":"Date/Time Planned Event"
+            },
+            { 
+               "Order":4,
+               "Name":"Event Reason Code"
+            },
+            { 
+               "Order":5,
+               "Name":"Operator Id"
+            },
+            { 
+               "Order":6,
+               "Name":"Event Occurred"
+            },
+            { 
+               "Order":7,
+               "Name":"Event Facility"
+            }
+         ]
+      },
+      { 
+         "Name":"Patient Identification",
+         "Code":"PID",
+         "Items":[ 
+            { 
+               "Order":1,
+               "Name":"Set Id - Pid"
+            },
+            { 
+               "Order":2,
+               "Name":"Patient Id"
+            },
+            { 
+               "Order":3,
+               "Name":"Patient Identifier List",
+               "Items":[ 
+                  { 
+                     "Order":1,
+                     "Name":"Id Number"
+                  },
+                  { 
+                     "Order":2,
+                     "Name":"Identifier Check Digit"
+                  },
+                  { 
+                     "Order":3,
+                     "Name":"Check Digit Scheme"
+                  },
+                  { 
+                     "Order":4,
+                     "Name":"Assigning Authority"
+                  },
+                  { 
+                     "Order":5,
+                     "Name":"Identifier Type Code"
+                  }
+               ]
+            },
+            { 
+               "Order":4,
+               "Name":"Alternate Patient Id - Pid"
+            },
+            { 
+               "Order":5,
+               "Name":"Patient Name",
+               "Items":[ 
+                  { 
+                     "Order":1,
+                     "Name":"Family Name"
+                  },
+                  { 
+                     "Order":2,
+                     "Name":"Given Name"
+                  }
+               ]
+            },
+            { 
+               "Order":6,
+               "Name":"Mother's Maiden Name"
+            },
+            { 
+               "Order":7,
+               "Name":"Date/Time Of Birth"
+            },
+            { 
+               "Order":8,
+               "Name":"Administrative Sex"
+            },
+            { 
+               "Order":9,
+               "Name":"Patient Alias"
+            },
+            { 
+               "Order":10,
+               "Name":"Race"
+            },
+            { 
+               "Order":11,
+               "Name":"Patient Address",
+               "Items":[ 
+                  { 
+                     "Order":1,
+                     "Name":"Street Address"
+                  },
+                  { 
+                     "Order":2,
+                     "Name":"Other Designation"
+                  },
+                  { 
+                     "Order":3,
+                     "Name":"City"
+                  },
+                  { 
+                     "Order":4,
+                     "Name":"State Or Province"
+                  },
+                  { 
+                     "Order":5,
+                     "Name":"Zip Or Postal Code"
+                  },
+                  { 
+                     "Order":6,
+                     "Name":"Country"
+                  },
+                  { 
+                     "Order":7,
+                     "Name":"Address Type"
+                  },
+                  { 
+                     "Order":8,
+                     "Name":"Other Geographic Designation"
+                  },
+                  { 
+                     "Order":9,
+                     "Name":"County/Parish Code"
+                  }
+               ]
+            },
+            { 
+               "Order":12,
+               "Name":"County Code"
+            },
+            { 
+               "Order":13,
+               "Name":"Phone Number"
+            }
+         ]
+      },
+      { 
+         "Name":"Patient Visit",
+         "Code":"PV1",
+         "Items":[ 
+            { 
+               "Order":1,
+               "Name":"Set Id - Pv1"
+            },
+            { 
+               "Order":2,
+               "Name":"Patient Class"
+            },
+            { 
+               "Order":3,
+               "Name":"Assigned Patient Location"
+            },
+            { 
+               "Order":4,
+               "Name":"Admission Type"
+            },
+            { 
+               "Order":5,
+               "Name":"Preadmit Number"
+            },
+            { 
+               "Order":6,
+               "Name":"Prior Patient Location"
+            },
+            { 
+               "Order":7,
+               "Name":"Attending Doctor",
+               "Items":[ 
+                  { 
+                     "Order":1,
+                     "Name":"Person Identifier"
+                  },
+                  { 
+                     "Order":2,
+                     "Name":"Family Name"
+                  },
+                  { 
+                     "Order":3,
+                     "Name":"Given Name"
+                  }
+               ]
+            },
+            { 
+               "Order":8,
+               "Name":"Referring Doctor"
+            },
+            { 
+               "Order":9,
+               "Name":"Consulting Doctor"
+            },
+            { 
+               "Order":10,
+               "Name":"Hospital Service"
+            }
+         ]
+      },
+      { 
+         "Name":"Patient Allergy Information",
+         "Code":"AL1",
+         "Items":[ 
+            { 
+               "Order":1,
+               "Name":"Set Id - Al1"
+            },
+            { 
+               "Order":2,
+               "Name":"Allergen Type Code"
+            },
+            { 
+               "Order":3,
+               "Name":"Allergen Code/Mnemonic/Description"
+            },
+            { 
+               "Order":4,
+               "Name":"Allergy Severity Code"
+            },
+            { 
+               "Order":5,
+               "Name":"Allergy Reaction Code"
+            },
+            { 
+               "Order":6,
+               "Name":"Identification Date"
+            }
+         ]
+      }
+   ]
+}
